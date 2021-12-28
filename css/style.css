@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 99%;
+    height: 98%;
+    border: 5px double rgb(94, 23, 100);
+    background: url(../img/1.jpg) 50% 50%;
+    background-size: 110%;
+    position: fixed;
+
+}
+.run{
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    left: 595px;
+    top: 475px;
+    font-size: 45px;
+    border: 2px solid rgb(11, 52, 68);
+    border-radius: 100px;
+    background-color: rgb(32, 138, 115);
+    opacity: 0.9;
+    position: absolute;
+    box-shadow: 0px 0px 10px 10px beige;
+}
+.birds{
+    width: 66px;
+    height: 66px;
+    background: url(../img/3.jpg) 50% 50%;
+    background-size: 100%;
+    position: absolute;
+    display: flex;
+    
+}
+.point{
+    width: 150px;
+    height: 40px;
+    background: rgb(21, 126, 175);
+    opacity: 0.9;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: 38px;
+}
+.life{
+    width: 150px;
+    height: 40px;
+    background: rgb(21, 126, 175);
+    opacity: 0.9;
+    right: 0px;
+    bottom: 45px;
+    position: absolute;
+    text-align: center;
+    font-size: 38px;
+}
+.over{
+    width: 700px;
+    height: 170px;
+    border: 3px double rgb(94, 23, 100);
+    margin: 170px 0 0 280px;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    background: gray;
+    opacity: 0.9;
+
+}
+.newGame{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    left: 505px;
+    top: 475px;
+    font-size: 45px;
+    border: 2px solid rgb(11, 52, 68);
+    border-radius: 100px;
+    background-color: rgb(32, 138, 115);
+    opacity: 0.9;
+    position: absolute;
+    box-shadow: 0px 0px 10px 10px beige;
+}
